@@ -4,6 +4,7 @@ body {
 
 h1 {
 	font-family: 'Cormorant', serif;
+	font-size: 36pt;
 }
 
 h3 {
@@ -19,25 +20,30 @@ h4 {
 	padding-bottom: 0px;
 }
 
-img {
-	float:right;
-	padding:2px;
-	border:3px solid #777;
+.logo {
+	padding:5px;
+	height:64px;
+	width: 64px;
 }
 
 #sneha {
-	width: 60%;
+	width: 100%;
+	padding:2px;
+	border:3px solid #777;
+	float:right;
 }
 #header {
 	margin: auto;
 }
 
 .section {
+	font-family: 'Cabin', sans-serif;
 	display: block;
-	text-align: right;
-	float: right;
+	text-align: center;
+	float: center;
+	font-size: 24pt;
 }
 
 p {
-	font-size: 10pt;
+	font-size: 11pt;
 }
